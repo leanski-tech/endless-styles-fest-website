@@ -1,0 +1,412 @@
+{
+  "startUrl": "https://endlessstyles.org/",
+  "fetchedAt": "2026-08-13T03:09:47.471Z",
+  "pages": [
+    {
+      "url": "https://endlessstyles.org/",
+      "finalUrl": "https://endlessstyles.org/",
+      "path": "index.html",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1450,
+      "kind": "page"
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://endlessstyles.org/favicon.svg",
+      "finalUrl": "https://endlessstyles.org/favicon.svg",
+      "path": "favicon.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 163,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/assets/index-p2kLeuts.js",
+      "finalUrl": "https://endlessstyles.org/assets/index-p2kLeuts.js",
+      "path": "assets/index-p2kLeuts.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "bytes": 210461,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/assets/index-C9l65YDb.css",
+      "finalUrl": "https://endlessstyles.org/assets/index-C9l65YDb.css",
+      "path": "assets/index-C9l65YDb.css",
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 21298,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_4733_1781254139284.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_4733_1781254139284.jpg",
+      "path": "photos/ASF_4733_1781254139284.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 444431,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_4862_1781254139285.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_4862_1781254139285.jpg",
+      "path": "photos/ASF_4862_1781254139285.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 700411,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_4992_1781254139285.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_4992_1781254139285.jpg",
+      "path": "photos/ASF_4992_1781254139285.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 1588363,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_5177_1781254139286.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_5177_1781254139286.jpg",
+      "path": "photos/ASF_5177_1781254139286.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 792665,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_4923_1781254139285.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_4923_1781254139285.jpg",
+      "path": "photos/ASF_4923_1781254139285.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 473809,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_5110_1781254139285.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_5110_1781254139285.jpg",
+      "path": "photos/ASF_5110_1781254139285.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 861115,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_5450_1781254139290.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_5450_1781254139290.jpg",
+      "path": "photos/ASF_5450_1781254139290.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 470699,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_5566_1781255333872.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_5566_1781255333872.jpg",
+      "path": "photos/ASF_5566_1781255333872.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 785013,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_5578_1781255333872.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_5578_1781255333872.jpg",
+      "path": "photos/ASF_5578_1781255333872.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 911066,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_5905_1781255333872.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_5905_1781255333872.jpg",
+      "path": "photos/ASF_5905_1781255333872.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 446762,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6001_1781255333872.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6001_1781255333872.jpg",
+      "path": "photos/ASF_6001_1781255333872.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 462449,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6004_1781255333872.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6004_1781255333872.jpg",
+      "path": "photos/ASF_6004_1781255333872.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 468328,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6179_1781255333873.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6179_1781255333873.jpg",
+      "path": "photos/ASF_6179_1781255333873.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 453764,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6199_1781255333873.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6199_1781255333873.jpg",
+      "path": "photos/ASF_6199_1781255333873.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 430332,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6631_1781255373970.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6631_1781255373970.jpg",
+      "path": "photos/ASF_6631_1781255373970.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 557164,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6639_1781255373970.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6639_1781255373970.jpg",
+      "path": "photos/ASF_6639_1781255373970.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 537321,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6680_1781255373970.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6680_1781255373970.jpg",
+      "path": "photos/ASF_6680_1781255373970.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 492569,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6685_1781255373970.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6685_1781255373970.jpg",
+      "path": "photos/ASF_6685_1781255373970.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 552258,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6753_1781255373971.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6753_1781255373971.jpg",
+      "path": "photos/ASF_6753_1781255373971.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 602504,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6757_1781255373971.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6757_1781255373971.jpg",
+      "path": "photos/ASF_6757_1781255373971.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 604520,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_6992_1781255373971.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_6992_1781255373971.jpg",
+      "path": "photos/ASF_6992_1781255373971.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 805749,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7023_1781255517232.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7023_1781255517232.jpg",
+      "path": "photos/ASF_7023_1781255517232.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 902198,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7114_1781255517235.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7114_1781255517235.jpg",
+      "path": "photos/ASF_7114_1781255517235.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 409502,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7244_1781255517235.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7244_1781255517235.jpg",
+      "path": "photos/ASF_7244_1781255517235.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 1022041,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7264_1781255517235.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7264_1781255517235.jpg",
+      "path": "photos/ASF_7264_1781255517235.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 820816,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7305_1781255517235.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7305_1781255517235.jpg",
+      "path": "photos/ASF_7305_1781255517235.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 611963,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7346_1781255517235.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7346_1781255517235.jpg",
+      "path": "photos/ASF_7346_1781255517235.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 577614,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7589_1781255517235.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7589_1781255517235.jpg",
+      "path": "photos/ASF_7589_1781255517235.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 1274076,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7659_1781255620030.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7659_1781255620030.jpg",
+      "path": "photos/ASF_7659_1781255620030.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 867808,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7663_1781255620033.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7663_1781255620033.jpg",
+      "path": "photos/ASF_7663_1781255620033.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 955604,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7674_1781255620033.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7674_1781255620033.jpg",
+      "path": "photos/ASF_7674_1781255620033.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 876159,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7703_1781255620034.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7703_1781255620034.jpg",
+      "path": "photos/ASF_7703_1781255620034.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 859817,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7742_1781255620034.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7742_1781255620034.jpg",
+      "path": "photos/ASF_7742_1781255620034.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 1117451,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7787_1781255620034.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7787_1781255620034.jpg",
+      "path": "photos/ASF_7787_1781255620034.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 803698,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_7838_1781255620034.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_7838_1781255620034.jpg",
+      "path": "photos/ASF_7838_1781255620034.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 1384049,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/photos/ASF_8021_1781255765076.jpg",
+      "finalUrl": "https://endlessstyles.org/photos/ASF_8021_1781255765076.jpg",
+      "path": "photos/ASF_8021_1781255765076.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 937488,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/esf-logo-extracted-0.png",
+      "finalUrl": "https://endlessstyles.org/esf-logo-extracted-0.png",
+      "path": "esf-logo-extracted-0.png",
+      "contentType": "image/png",
+      "bytes": 24100,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/esf-logo-stacked.png",
+      "finalUrl": "https://endlessstyles.org/esf-logo-stacked.png",
+      "path": "esf-logo-stacked.png",
+      "contentType": "image/png",
+      "bytes": 140459,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/hero-photo.jpg",
+      "finalUrl": "https://endlessstyles.org/hero-photo.jpg",
+      "path": "hero-photo.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 90874,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/logo-lnoleum.png",
+      "finalUrl": "https://endlessstyles.org/logo-lnoleum.png",
+      "path": "logo-lnoleum.png",
+      "contentType": "image/png",
+      "bytes": 14634,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/logo-outrigger.svg",
+      "finalUrl": "https://endlessstyles.org/logo-outrigger.svg",
+      "path": "logo-outrigger.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 3171,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/logo-daley.webp",
+      "finalUrl": "https://endlessstyles.org/logo-daley.webp",
+      "path": "logo-daley.webp",
+      "contentType": "image/webp",
+      "bytes": 2128,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/lino-headshot.jpg",
+      "finalUrl": "https://endlessstyles.org/lino-headshot.jpg",
+      "path": "lino-headshot.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 28158,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/boaz-headshot.jpg",
+      "finalUrl": "https://endlessstyles.org/boaz-headshot.jpg",
+      "path": "boaz-headshot.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 27988,
+      "kind": "asset"
+    },
+    {
+      "url": "https://endlessstyles.org/esf-mark.png",
+      "finalUrl": "https://endlessstyles.org/esf-mark.png",
+      "path": "esf-mark.png",
+      "contentType": "image/png",
+      "bytes": 104479,
+      "kind": "asset"
+    }
+  ],
+  "external": [
+    {
+      "url": "https://fonts.googleapis.com/"
+    },
+    {
+      "url": "https://fonts.gstatic.com/"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    }
+  ],
+  "failed": []
+}
