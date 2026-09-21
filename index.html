@@ -221,6 +221,38 @@
       }
     </style>
 
+  
+    <style id="esf-gallery-enhance">
+      .gallery-stage{touch-action:pan-y;outline:none}
+      .gallery-stage:focus-visible{box-shadow:inset 0 0 0 2px var(--gold)}
+      .gallery-slide.active img{will-change:transform,opacity}
+      .gallery-stage.gallery-interacting .gallery-slide.active img{animation-play-state:paused}
+      @media(max-width:700px){
+        .gallery-stage{
+          height:min(68vh,620px);
+          min-height:340px;
+        }
+        .gal-arrow{
+          width:46px;
+          height:46px;
+          font-size:1.2rem;
+        }
+        .gal-arrow.left{left:.65rem}
+        .gal-arrow.right{right:.65rem}
+        .gal-counter{
+          right:.8rem;
+          bottom:.8rem;
+          padding:.32rem .55rem;
+          background:rgba(7,14,34,.62);
+          border:1px solid rgba(240,234,214,.12);
+          border-radius:999px;
+        }
+        .gallery-dots{display:none}
+        .gallery-hd{padding:4.25rem 1.2rem 2rem}
+        .gallery-credit{padding-bottom:3rem}
+      }
+    </style>
+
   </head>
   <body>
     <div id="root"></div>
@@ -260,6 +292,79 @@
       };
       if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});
       else start();
+    })();
+    </script>
+
+  
+    <script id="esf-gallery-script">
+    (() => {
+      const bootGallery = (tries=0) => {
+        const stage=document.querySelector('.gallery-stage');
+        if(!stage && tries<80){setTimeout(()=>bootGallery(tries+1),75);return}
+        if(!stage || stage.dataset.enhanced==='1')return;
+        stage.dataset.enhanced='1';
+        stage.tabIndex=0;
+        stage.setAttribute('role','region');
+        stage.setAttribute('aria-label','Endless Styles Festival photo gallery. Use left and right arrow keys or swipe.');
+
+        const prev=()=>stage.querySelector('.gal-arrow.left')?.click();
+        const next=()=>stage.querySelector('.gal-arrow.right')?.click();
+
+        stage.addEventListener('keydown',e=>{
+          if(e.key==='ArrowLeft'){e.preventDefault();prev()}
+          if(e.key==='ArrowRight'){e.preventDefault();next()}
+        });
+
+        let startX=0,startY=0,active=false;
+        stage.addEventListener('touchstart',e=>{
+          if(!e.touches?.length)return;
+          startX=e.touches[0].clientX;
+          startY=e.touches[0].clientY;
+          active=true;
+          stage.classList.add('gallery-interacting');
+        },{passive:true});
+
+        stage.addEventListener('touchend',e=>{
+          if(!active)return;
+          active=false;
+          stage.classList.remove('gallery-interacting');
+          const t=e.changedTouches?.[0];
+          if(!t)return;
+          const dx=t.clientX-startX;
+          const dy=t.clientY-startY;
+          if(Math.abs(dx)>55 && Math.abs(dx)>Math.abs(dy)*1.25){
+            dx<0?next():prev();
+          }
+        },{passive:true});
+
+        stage.addEventListener('pointerdown',()=>stage.classList.add('gallery-interacting'));
+        window.addEventListener('pointerup',()=>stage.classList.remove('gallery-interacting'),{passive:true});
+
+        const slides=[...stage.querySelectorAll('.gallery-slide')];
+        const preloadAdjacent=()=>{
+          const i=slides.findIndex(s=>s.classList.contains('active'));
+          if(i<0)return;
+          [1,2,-1].forEach(offset=>{
+            const slide=slides[(i+offset+slides.length)%slides.length];
+            const img=slide?.querySelector('img');
+            if(!img?.src)return;
+            const preload=new Image();
+            preload.decoding='async';
+            preload.src=img.src;
+          });
+        };
+
+        preloadAdjacent();
+        const mo=new MutationObserver(preloadAdjacent);
+        slides.forEach(slide=>mo.observe(slide,{attributes:true,attributeFilter:['class']}));
+
+        const counter=stage.querySelector('.gal-counter');
+        if(counter) counter.setAttribute('aria-live','polite');
+      };
+
+      if(document.readyState==='loading'){
+        document.addEventListener('DOMContentLoaded',()=>bootGallery(),{once:true});
+      }else bootGallery();
     })();
     </script>
 
